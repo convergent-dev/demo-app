@@ -2,6 +2,8 @@
 
 This is the demo app to test code generation in the demo.convergent.dev interface.
 
+An example built with example components is vieweable at https://demo-app.convergent.dev/
+
 Start by cloning this repo to your local machine by running the following command in any terminal prompt.
 
 ```bash 
