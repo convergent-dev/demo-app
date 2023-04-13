@@ -1,4 +1,4 @@
-# Companion demo-app for demo.convergent.dev 
+# Companion demo of CLI for demo.convergent.dev
 
 This is the demo app to test code generation in the demo.convergent.dev interface.
 
