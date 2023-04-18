@@ -1,4 +1,4 @@
-function ArrowDownIcon(props) {
+export function ArrowDownIcon(props) {
   return (
     <svg aria-hidden="true" viewBox="0 0 24 24" {...props}>
       <path

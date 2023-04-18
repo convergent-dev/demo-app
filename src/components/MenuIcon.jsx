@@ -1,4 +1,4 @@
-function MenuIcon({ open, ...props }) {
+export function MenuIcon({ open, ...props }) {
   return (
     <svg
       aria-hidden="true"
