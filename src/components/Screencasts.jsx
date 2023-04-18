@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
+import { PlayIcon } from '@/components/PlayIcon'
 import duotoneImage from '@/images/screencasts/duotone.svg'
 import gridsImage from '@/images/screencasts/grids.svg'
 import setupImage from '@/images/screencasts/setup.svg'
@@ -38,21 +39,6 @@ const videos = [
   },
 ]
 
-function PlayIcon(props) {
-  return (
-    <svg
-      aria-hidden="true"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      viewBox="0 0 16 16"
-      {...props}
-    >
-      <path d="M6.75 10.25v-4.5L10.25 8l-3.5 2.25Z" />
-      <circle cx="8" cy="8" r="6.25" fill="none" />
-    </svg>
-  )
-}
 
 export function Screencasts() {
   return (
