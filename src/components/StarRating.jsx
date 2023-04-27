@@ -1,4 +1,4 @@
-import { StarIcon } from '@components/StarIcon'
+import { StarIcon } from '@/components/StarIcon'
 
 export function StarRating({ rating = 5 }) {
   return (
