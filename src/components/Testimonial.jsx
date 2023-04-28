@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import { Container } from '@/components/Container'
-import { GridPattern } from '@/components/GridPattern'
+import { Container } from '@/elements/Container'
+import { GridBackground } from '@/elements/GridBackground'
 import { StarRating } from '@/components/StarRating'
 
 export function Testimonial({ id, author, children }) {
@@ -12,7 +12,7 @@ export function Testimonial({ id, author, children }) {
       className="relative bg-slate-100 py-16 sm:py-32"
     >
       <div className="text-slate-900/10">
-        <GridPattern x="50%" patternTransform="translate(0 80)" />
+        <GridBackground x="50%" patternTransform="translate(0 80)" />
       </div>
       <Container size="xs" className="relative">
         <figure>

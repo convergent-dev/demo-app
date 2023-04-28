@@ -1,4 +1,4 @@
-import { Container } from '@/components/Container'
+import { Container } from '@/elements/Container'
 import { Expandable } from '@/components/Expandable'
 import { SectionHeading } from '@/components/SectionHeading'
 

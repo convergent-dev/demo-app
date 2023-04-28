@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import { Container } from '@/components/Container'
+import { Container } from '@/elements/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import { PlayIcon } from '@/components/PlayIcon'
+import { PlayIcon } from '@/elements/PlayIcon'
 import duotoneImage from '@/images/screencasts/duotone.svg'
 import gridsImage from '@/images/screencasts/grids.svg'
 import setupImage from '@/images/screencasts/setup.svg'

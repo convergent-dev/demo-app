@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { Container } from '@/components/Container'
+import { Container } from '@/elements/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/abstract-background.png'
 import discordImage from '@/images/resources/discord.svg'

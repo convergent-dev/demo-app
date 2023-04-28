@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { Popover } from '@headlessui/react'
 import clsx from 'clsx'
-import { MenuIcon } from '@/components/MenuIcon'
+import { MenuIcon } from '@/elements/MenuIcon'
 
 const sections = [
   {

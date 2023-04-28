@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { GridPattern } from '@/components/GridPattern'
+import { GridBackground } from '@/elements/GridBackground'
 import { SectionHeading } from '@/components/SectionHeading'
-import { TwitterIcon } from '@/components/TwitterIcon'
+import { TwitterIcon } from '@/elements/TwitterIcon'
 import authorImage from '@/images/avatars/author.png'
 
 export function Author() {
@@ -14,7 +14,7 @@ export function Author() {
       className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >
       <div className="absolute inset-x-0 bottom-0 top-1/2 text-slate-900/10 [mask-image:linear-gradient(transparent,white)]">
-        <GridPattern x="50%" y="100%" />
+        <GridBackground x="50%" y="100%" />
       </div>
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-slate-50 pt-px sm:rounded-6xl">

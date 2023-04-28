@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import { Button } from '@/components/Button'
-import { GridPattern } from '@/components/GridPattern'
+import { Button } from '@/elements/Button'
+import { GridBackground } from '@/elements/GridBackground'
 import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/cover.png'
 
@@ -33,7 +33,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:pt-20 xl:py-32">
         <div className="relative flex items-end lg:col-span-5 lg:row-span-2">
           <div className="absolute -bottom-12 -top-20 left-0 right-1/2 z-10 rounded-br-6xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-32 lg:left-[-100vw] lg:right-full lg:-mr-40">
-            <GridPattern
+            <GridBackground
               x="100%"
               y="100%"
               patternTransform="translate(112 64)"

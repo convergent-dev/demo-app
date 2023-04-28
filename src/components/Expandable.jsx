@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from 'react'
-import { ArrowDownIcon } from '@/components/ArrowDownIcon'
+import { ArrowDownIcon } from '@/elements/ArrowDownIcon'
 
 const ExpandableContext = createContext({
   isExpanded: false,

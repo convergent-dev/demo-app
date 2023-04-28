@@ -1,6 +1,6 @@
-import { Button } from '@/components/Button'
-import { CheckIcon } from '@/components/CheckIcon'
-import { GridPattern } from '@/components/GridPattern'
+import { Button } from '@/elements/Button'
+import { CheckIcon } from '@/elements/CheckIcon'
+import { GridBackground } from '@/elements/GridBackground'
 
 import clsx from 'clsx'
 
@@ -14,7 +14,7 @@ export function Plan({ name, description, price, features, href, featured }) {
     >
       {featured && (
         <div className="absolute inset-0 text-white/10 [mask-image:linear-gradient(white,transparent)]">
-          <GridPattern x="50%" y="50%" />
+          <GridBackground x="50%" y="50%" />
         </div>
       )}
       <div className="relative flex flex-col">

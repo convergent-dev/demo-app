@@ -1,4 +1,4 @@
-import { Container } from '@/components/Container'
+import { Container } from '@/elements/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import { Plan } from '@/components/Plan'
 
