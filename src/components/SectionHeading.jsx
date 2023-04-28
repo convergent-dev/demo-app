@@ -3,6 +3,7 @@ import clsx from 'clsx'
 export function SectionHeading({ number, children, className, ...props }) {
   return (
     <h2
+      data-conv="section-heading"
       className={clsx(
         className,
         'inline-flex items-center rounded-full px-4 py-1 text-blue-600 ring-1 ring-inset ring-blue-600'

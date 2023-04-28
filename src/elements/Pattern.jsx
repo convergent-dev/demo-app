@@ -17,7 +17,9 @@ export function Pattern({
   let height = pattern.length * size + (pattern.length - 1) * gapY
 
   return (
-    <svg aria-hidden="true" width={width} height={height} {...props}>
+    <svg
+      data-conv="pattern"
+      aria-hidden="true" width={width} height={height} {...props}>
       <defs>
         <symbol id={`${id}-0`} width={size} height={size}>
           <rect className="fill-blue-500" width={size} height={size} />

@@ -10,6 +10,7 @@ export function Author() {
   return (
     <section
       id="author"
+      data-conv="author"
       aria-labelledby="author-title"
       className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16"
     >

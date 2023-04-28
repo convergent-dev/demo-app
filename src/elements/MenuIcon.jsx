@@ -1,6 +1,7 @@
 export function MenuIcon({ open, ...props }) {
   return (
     <svg
+      data-conv="menu-icon"
       aria-hidden="true"
       fill="none"
       strokeWidth="2"

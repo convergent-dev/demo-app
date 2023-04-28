@@ -103,7 +103,7 @@ const testimonials = [
   ],
 ]
 
-function Testimonial({ author, children }) {
+function TestimonialCard({ author, children }) {
   return (
     <figure className="rounded-4xl p-8 shadow-md ring-1 ring-slate-900/5">
       <blockquote>
@@ -134,7 +134,9 @@ function Testimonial({ author, children }) {
 
 export function Testimonials() {
   return (
-    <section className="py-8 sm:py-10 lg:py-16">
+    <section
+      data-conv="testimonials"
+      className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
           Some kind words from early customers...
@@ -156,9 +158,9 @@ export function Testimonials() {
                 .map((column) => column[0])
                 .map((testimonial, testimonialIndex) => (
                   <li key={testimonialIndex} className="lg:hidden">
-                    <Testimonial author={testimonial.author}>
+                    <TestimonialCard author={testimonial.author}>
                       {testimonial.content}
-                    </Testimonial>
+                    </TestimonialCard>
                   </li>
                 ))}
               {testimonials.map((column, columnIndex) => (
@@ -178,9 +180,9 @@ export function Testimonials() {
                             testimonialIndex > 1 && 'mt-8'
                           )}
                         >
-                          <Testimonial author={testimonial.author}>
+                          <TestimonialCard author={testimonial.author}>
                             {testimonial.content}
-                          </Testimonial>
+                          </TestimonialCard>
                         </li>
                       ))}
                   </ul>

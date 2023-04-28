@@ -1,6 +1,7 @@
 export function PlayIcon(props) {
   return (
     <svg
+      data-conv="play-icon"
       aria-hidden="true"
       strokeWidth="1.5"
       strokeLinecap="round"

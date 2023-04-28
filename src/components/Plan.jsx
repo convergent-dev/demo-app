@@ -7,6 +7,7 @@ import clsx from 'clsx'
 export function Plan({ name, description, price, features, href, featured }) {
   return (
     <div
+      data-conv="plan"
       className={clsx(
         'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-12',
         featured && 'bg-blue-600 sm:shadow-lg'

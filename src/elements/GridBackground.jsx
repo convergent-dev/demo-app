@@ -4,7 +4,9 @@ export function GridBackground(props) {
   let patternId = useId()
 
   return (
-    <svg aria-hidden="true" className="absolute inset-0 h-full w-full">
+    <svg
+      data-conv="grid-background"
+      aria-hidden="true" className="absolute inset-0 h-full w-full">
       <defs>
         <pattern
           id={patternId}

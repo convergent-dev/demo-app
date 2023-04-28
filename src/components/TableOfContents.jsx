@@ -32,6 +32,7 @@ export function TableOfContents() {
   return (
     <section
       id="table-of-contents"
+      data-conv="table-of-contents"
       aria-labelledby="table-of-contents-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >

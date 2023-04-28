@@ -34,11 +34,15 @@ export function Button({
     baseStyles[variant],
     variantStyles[variant][color],
     className
-  )
-
-  return href ? (
-    <Link href={href} className={className} {...props} />
-  ) : (
-    <button className={className} {...props} />
+    )
+    
+    return href ? (
+      <Link
+      data-conv="button"
+      href={href} className={className} {...props} />
+      ) : (
+        <button
+          data-conv="button"
+          className={className} {...props} />
   )
 }

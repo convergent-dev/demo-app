@@ -65,7 +65,9 @@ export function NavBar() {
   }, [])
 
   return (
-    <div ref={navBarRef} className="sticky top-0 z-50">
+    <div
+      data-conv="nav-bar"
+      ref={navBarRef} className="sticky top-0 z-50">
       <Popover className="sm:hidden">
         {({ open }) => (
           <>

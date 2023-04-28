@@ -6,6 +6,7 @@ export function FreeChapters() {
   return (
     <section
       id="free-chapters"
+      data-conv="free-chapters"
       aria-label="Free preview"
       className="scroll-mt-14 bg-blue-600 sm:scroll-mt-32"
     >

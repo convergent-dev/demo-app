@@ -11,6 +11,7 @@ export function Expandable({ children }) {
 
   return (
     <ExpandableContext.Provider
+      data-conv="expandable"
       value={{
         isExpanded,
         expand: () => {
